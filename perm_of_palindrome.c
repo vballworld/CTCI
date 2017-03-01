@@ -12,7 +12,8 @@
 
 void countCharAppearances(char *string, int charCountsInString[])
 {
-    //read each char & increment matching elem in count array
+    /*read each char & increment matching elem in count array
+    */
     int charPosition = 0;
     int charIndexInCountArray = 0;
     while (string[charPosition] != '\0')
